@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jewllery</title>
+    <LINK rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      
+
+
+</head>
+<body> 
+<header>
+    <p class="welcome">welcome to our page</p>
+    <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-background">
+        
+        </div>
+</header>
+
+
+
+<section class="shop">
+    <div class="shop-text">
+      <h2>Shop Our New Arrivals</h2>
+      <a href="#" class="btn" onclick="notification()">Shop Now</a>
+    </div>
+  </section>
+
+
+
+<section class="new-arrivals">
+    <h2>New Arrivals</h2>
+<div class="products">
+<div class="product">
+<img src="necklace.jpg" alt="sunshine necklace" width="200" id="img1">
+
+<p>sunshine necklace</p>
+<p>200egp</p>
+</div>
+<div class="product">
+    <img src="ring.jpg" alt="sunshine ring" width="200" id="img1">
+    
+    <p>sunshine ring</p>
+    <p>70egp</p>
+
+</div>
+
+<div class="product">
+    <img src="earrnings.jpg" alt="aurora earrnings" width="200" id="img1">
+    
+    <p>aurora earrnings</p>
+    <p>150egp</p>
+</div>
+<div class="product">
+    <img src="earringss.jpg" alt="floral earringss" width="200" id="img1">
+    
+    <p>floral earrings</p>
+    <p>180egp</p>
+</div>
+</section>
+
+<section class="NOTE">
+    <h3>NOTE</h3>
+<P> <h3>LIFE IS NOT PERFECT BUT YOUR JEWLERY CAN BE!</h3></P>
+
+</section>
+
+<section class="Form">
+    <h2 class="form-header">for order please apply this form!</h2>
+    <form >
+        <label for="user_name">User Name:</label>
+        <input id="user_name" type="text" placeholder="Write Your User Name" name="user1"> <br>
+        
+        <label for="Email1">Email:</label>
+               <input id="Email1" type="email" placeholder="Write Only Gmail Accounts" name="email1" >  <br>
+           
+               <label for="your chosen item">chosen item</label>
+        
+               <select id="your-chosen-item" >
+               
+                   <optgroup label="earrings">
+                       <option value="0">floral earrings</option>
+                       <option value="1">aurora earrings</option>
+                   </optgroup>
+                  
+                   <optgroup label="necklace">
+                       <option value="2">sunshine necklace</option>
+                      
+                   </optgroup>
+        
+                   <optgroup label="ring">
+                    <option value="3">sunshine ring</option>
+                
+                </optgroup>   
+            
+           
+             
+         
+           
+              <input onclick="confirm()" type="submit" value="submit" style="margin-top: 20px; width: 50px; margin-left: 100px;">
+        
+    </form>
+   
+           
+
+</section>
+
+
+</body>
+
+<script src="man.js"></script>
+
+
+</html>
